@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скрипты продаж — HR-Di</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc-bar { background: var(--navy); padding: 20px 0; position: sticky; top: 0; z-index: 50; }
+  .doc-bar__inner { display: flex; justify-content: space-between; align-items: center; }
+  .doc-bar .logo { color: #fff; font-size: 17px; }
+  .doc-bar__actions a { color: rgba(255,255,255,.85); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); }
+  .doc { max-width: 820px; margin: 0 auto; padding: 70px 24px 110px; }
+  .doc h1 { font-size: 34px; margin-bottom: 14px; }
+  .doc > p.lead { font-size: 16px; color: var(--ink-soft); max-width: 600px; margin-bottom: 50px; }
+  .block { margin-bottom: 52px; }
+  .block h2 { font-size: 21px; margin-bottom: 6px; }
+  .block .hint { font-size: 13.5px; color: var(--ink-mute); margin-bottom: 18px; }
+  .say { border-radius: var(--radius-sm); padding: 16px 20px; margin-bottom: 12px; font-size: 15px; line-height: 1.6; max-width: 92%; }
+  .say b { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; opacity: .65; }
+  .say--client { background: var(--bg-alt); border: 1px solid var(--border); }
+  .say--you { background: var(--accent-soft); border: 1px solid #f2c9a8; margin-left: auto; }
+  .obj { border-left: 3px solid var(--accent); padding-left: 18px; margin-bottom: 40px; }
+  .obj__q { font-family: var(--ff-head); font-weight: 700; font-size: 17px; margin-bottom: 14px; color: var(--navy); }
+</style>
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">HR</span>HR-Di</a>
+    <div class="doc-bar__actions"><a href="materials.html">Все материалы</a></div>
+  </div>
+</div>
+<div class="doc">
+  <span class="section-tag">Скрипты продаж</span>
+  <h1>Что говорить, когда клиент уже тёплый</h1>
+  <p class="lead">Как вести разговор с предпринимателем, который ищет сотрудников: с чего начать звонок, как назвать стоимость и что отвечать на типовые возражения.</p>
+
+  <div class="block">
+    <h2>Первый разговор с клиентом</h2>
+    <div class="hint">Цель — понять вакансию и договориться о старте поиска, а не продать «в лоб».</div>
+    <div class="say say--you"><b>Вы</b>Расскажите, кого ищете: какая должность, сколько человек нужно и к какому сроку?</div>
+    <div class="say say--client"><b>Клиент</b>Нужны монтажники на объект, человек пять, желательно уже на этой неделе начать выходить.</div>
+    <div class="say say--you"><b>Вы</b>Понятно. Это разовый набор под объект или вакансия постоянная? И вахта или локально?</div>
+    <div class="say say--client"><b>Клиент</b>Локально, но если будут хорошие кандидаты с готовностью на вахту — тоже интересно.</div>
+    <div class="say say--you"><b>Вы</b>Отлично, тогда предлагаю так: фиксирую вакансию, запускаю поиск сегодня же и присылаю первых кандидатов на согласование в течение недели. Оплата — только после того, как человек выйдет и отработает две недели.</div>
+  </div>
+
+  <div class="block">
+    <h2>Возражения</h2>
+
+    <div class="obj">
+      <div class="obj__q">«Дорого»</div>
+      <div class="say say--client"><b>Клиент</b>Слышал, что кадровые агентства берут дорого за подбор.</div>
+      <div class="say say--you"><b>Вы</b>Мы работаем не как агентство — берём фиксированную ставку за вакансию, а не процент от годовой зарплаты сотрудника. И платите вы только после того, как кандидат отработал две недели и остался. Если считать время, которое вы тратите на поиск сами — обычно выходит дешевле, чем терять недели на объявления и звонки.</div>
+    </div>
+
+    <div class="obj">
+      <div class="obj__q">«Мы сами найдём, зачем платить»</div>
+      <div class="say say--client"><b>Клиент</b>У нас уже был опыт — сами разместили объявление, обзвонили.</div>
+      <div class="say say--you"><b>Вы</b>Это рабочий вариант, если есть время каждый день разбирать отклики и звонить. Мы забираем именно эту часть — публикацию, обзвон, отсев неподходящих — и присылаем уже готовых людей на финальное решение. Вы экономите не деньги, а время и нервы на операционке.</div>
+    </div>
+
+    <div class="obj">
+      <div class="obj__q">«А если кандидат не подойдёт или уйдёт через неделю»</div>
+      <div class="say say--client"><b>Клиент</b>Был случай, вышел новый сотрудник и через три дня пропал.</div>
+      <div class="say say--you"><b>Вы</b>Поэтому расчёт с нами — не сразу, а через две недели после выхода, когда понятно, что сотрудник «прижился». Если человек не задержался — ищем замену без дополнительной оплаты за новый поиск по этой же вакансии.</div>
+    </div>
+
+    <div class="obj">
+      <div class="obj__q">«Хочу видеть все резюме, а не только финалистов»</div>
+      <div class="say say--client"><b>Клиент</b>А можно посмотреть все анкеты, кто откликнулся?</div>
+      <div class="say say--you"><b>Вы</b>Можем показать общую картину по потоку откликов, но смысл нашей работы — не заваливать вас резюме, а сразу отсеять тех, кто не подходит. На финальное решение отдаём 2-3 кандидатов, которые точно соответствуют требованиям — дальше выбор за вами.</div>
+    </div>
+
+    <div class="obj">
+      <div class="obj__q">«Нужно подумать»</div>
+      <div class="say say--client"><b>Клиент</b>Хорошее предложение, надо подумать.</div>
+      <div class="say say--you"><b>Вы</b>Конечно. Пока думаете — вакансия стоит открытой, а сроки поджимают. Предлагаю запустить поиск уже сейчас: вы ничего не платите, пока не увидите кандидатов. Так вы ничего не теряете, а время экономите.</div>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>Как называть стоимость</h2>
+    <div class="say say--you"><b>Вы</b>Стоимость фиксированная, за вакансию — зависит от типа должности, региона и срочности. Точную сумму назову после того, как зафиксируем требования — это займёт пять минут. Оплата — только после того, как сотрудник отработает две недели.</div>
+  </div>
+
+  <div class="block">
+    <h2>Как закрывать на заявку</h2>
+    <div class="say say--you"><b>Вы</b>Тогда фиксирую вакансию и запускаю поиск сегодня. Пришлите, пожалуйста, требования и контакт для связи — и завтра-послезавтра будут первые кандидаты на согласование.</div>
+  </div>
+</div>
+</body>
+</html>

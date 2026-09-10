@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Презентация HR-Di</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc-bar { background: var(--navy); padding: 20px 0; position: sticky; top: 0; z-index: 50; }
+  .doc-bar__inner { display: flex; justify-content: space-between; align-items: center; }
+  .doc-bar .logo { color: #fff; font-size: 17px; }
+  .doc-bar__actions a { color: rgba(255,255,255,.85); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); }
+  .pcover { background: var(--navy); color: #fff; padding: 90px 0 70px; text-align: center; }
+  .pcover h1 { font-size: 38px; max-width: 700px; margin: 0 auto 16px; }
+  .pcover p { font-size: 16px; color: rgba(255,255,255,.75); max-width: 560px; margin: 0 auto; }
+  .doc { max-width: 900px; margin: 0 auto; padding: 70px 24px 110px; }
+  .p-block { margin-bottom: 60px; }
+  .p-block h2 { font-size: 24px; margin-bottom: 20px; }
+  .p-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .p-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+  .p-card b { display: block; font-family: var(--ff-head); font-size: 15px; margin-bottom: 8px; color: var(--navy); }
+  .p-card span { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; }
+  .calc { background: var(--navy); color: #fff; border-radius: var(--radius); padding: 34px; }
+  .calc h3 { font-size: 19px; margin-bottom: 18px; }
+  .calc-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.15); font-size: 14.5px; }
+  .calc-row:last-child { border: none; font-weight: 800; font-size: 17px; padding-top: 18px; color: #ffbf99; }
+  @media (max-width: 700px) { .p-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">HR</span>HR-Di</a>
+    <div class="doc-bar__actions"><a href="materials.html">Все материалы</a></div>
+  </div>
+</div>
+
+<div class="pcover">
+  <div class="container">
+    <span class="section-tag" style="background:rgba(255,255,255,.12);color:#ffcfa8;">HR-Di</span>
+    <h1>Внешний HR-отдел: закрываем вакансии, пока вы занимаетесь бизнесом</h1>
+    <p>Диана Шуплецова — 15 лет в найме и построении команд. Присылаем готовых кандидатов, а не поток резюме.</p>
+  </div>
+</div>
+
+<div class="doc">
+
+  <div class="p-block">
+    <h2>Что вы получаете</h2>
+    <div class="p-grid">
+      <div class="p-card"><b>Финальных кандидатов</b><span>Не резюме для сортировки, а 2-3 человека, уже прошедших отбор и готовых к выходу.</span></div>
+      <div class="p-card"><b>Постоплату</b><span>Оплата только после того, как сотрудник отработал две недели и остался в команде.</span></div>
+      <div class="p-card"><b>Фиксированную ставку</b><span>Без процента от годовой зарплаты сотрудника, как в классических кадровых агентствах.</span></div>
+    </div>
+  </div>
+
+  <div class="p-block">
+    <h2>Кого подбираем</h2>
+    <div class="p-grid">
+      <div class="p-card"><b>Вахтовики</b><span>Набор под сроки заезда, с проверкой готовности к вахтовому графику.</span></div>
+      <div class="p-card"><b>Сантехники</b><span>Мастера с опытом — под аварийные бригады или постоянный штат.</span></div>
+      <div class="p-card"><b>Монтажники</b><span>Бригады и специалисты под объект — стройка, локально или вахтой.</span></div>
+      <div class="p-card"><b>Разнорабочие</b><span>Массовый и точечный набор на производство, склад, стройку.</span></div>
+      <div class="p-card"><b>Линейный персонал</b><span>Продавцы, операторы, кассиры, курьеры — для розницы и товарки.</span></div>
+      <div class="p-card"><b>Менеджмент и ИТР</b><span>Руководители, начальники участков, инженерно-технический персонал.</span></div>
+    </div>
+  </div>
+
+  <div class="p-block">
+    <h2>Как это работает</h2>
+    <div class="p-grid">
+      <div class="p-card"><b>1. Заявка</b><span>Фиксируем требования, вилку и сроки.</span></div>
+      <div class="p-card"><b>2. Поиск</b><span>Подключаем все каналы поиска и вахтовые пулы.</span></div>
+      <div class="p-card"><b>3. Отбор</b><span>Скрининг, интервью, проверка готовности.</span></div>
+      <div class="p-card"><b>4. Финалисты</b><span>Передаём 2-3 кандидатов на ваш выбор.</span></div>
+      <div class="p-card"><b>5. Выход</b><span>Сопровождаем первые две недели работы.</span></div>
+      <div class="p-card"><b>6. Расчёт</b><span>Оплата — только после того, как сотрудник прижился.</span></div>
+    </div>
+  </div>
+
+  <div class="p-block">
+    <h2>Пример расчёта</h2>
+    <div class="calc">
+      <h3>Закрытие одной вакансии</h3>
+      <div class="calc-row"><span>Публикация, поиск, скрининг</span><span>включено в ставку</span></div>
+      <div class="calc-row"><span>Передача финальных кандидатов</span><span>2-3 человека</span></div>
+      <div class="calc-row"><span>Сопровождение выхода</span><span>первые 14 дней</span></div>
+      <div class="calc-row"><span>Итоговая стоимость</span><span>фиксируется под вакансию</span></div>
+    </div>
+  </div>
+
+  <div class="p-block" style="text-align:center;">
+    <h2 style="margin-bottom:14px;">Готовы обсудить вакансию?</h2>
+    <p style="color:var(--ink-soft);margin-bottom:24px;">Опишите, кого ищете — предложим план поиска и сроки.</p>
+    <a href="https://t.me/dianashuplecova" target="_blank" rel="noopener" class="btn btn--primary">Написать в Telegram: @dianashuplecova</a>
+  </div>
+
+</div>
+</body>
+</html>

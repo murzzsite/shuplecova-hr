@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Материалы — HR-Di</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc-bar { background: var(--navy); padding: 20px 0; }
+  .doc-bar__inner { display: flex; justify-content: space-between; align-items: center; }
+  .doc-bar .logo { color: #fff; font-size: 17px; }
+  .hub { max-width: 960px; margin: 0 auto; padding: 80px 24px 100px; }
+  .hub h1 { font-size: 36px; margin-bottom: 14px; }
+  .hub > p { font-size: 16px; color: var(--ink-soft); max-width: 600px; margin-bottom: 48px; }
+  .hub-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .hub-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; box-shadow: var(--shadow-sm); }
+  .hub-card__icon { width: 46px; height: 46px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-dark); display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+  .hub-card h3 { font-size: 18px; margin-bottom: 10px; }
+  .hub-card p { font-size: 14px; color: var(--ink-soft); line-height: 1.6; flex-grow: 1; margin-bottom: 20px; }
+  @media (max-width: 900px) { .hub-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">HR</span>HR-Di</a>
+    <a href="index.html" class="btn btn--ghost" style="background:transparent;border-color:rgba(255,255,255,.3);color:#fff;">← На сайт</a>
+  </div>
+</div>
+<div class="hub">
+  <span class="section-tag">Материалы</span>
+  <h1>Всё, что нужно для продажи ваших услуг</h1>
+  <p>Три рабочих документа под HR-Di: как говорить с клиентом, как показать услугу коротко и понятно, и как написать первым тому, кто ещё не думал о найме на аутсорсе.</p>
+  <div class="hub-grid">
+    <div class="hub-card">
+      <div class="hub-card__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипты продаж</h3>
+      <p>Как вести разговор с клиентом: ответы на «дорого», «мы сами найдём», «а если не подойдёт», как называть стоимость и закрывать на заявку.</p>
+      <a href="scripts.html" class="btn btn--dark btn--block">Открыть</a>
+    </div>
+    <div class="hub-card">
+      <div class="hub-card__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <h3>Продающая презентация</h3>
+      <p>Оформленный прайс и оффер HR-Di — то, что можно скинуть клиенту в директ или мессенджер вместо долгого объяснения на словах.</p>
+      <a href="presentation.html" class="btn btn--dark btn--block">Открыть</a>
+    </div>
+    <div class="hub-card">
+      <div class="hub-card__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипт холодных сообщений</h3>
+      <p>Первое сообщение бизнесу, который ещё не искал внешний HR-отдел: как написать, ответить на «а вы кто» и довести до созвона.</p>
+      <a href="outreach.html" class="btn btn--dark btn--block">Открыть</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

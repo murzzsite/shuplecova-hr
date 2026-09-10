@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скрипт холодных сообщений — HR-Di</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc-bar { background: var(--navy); padding: 20px 0; position: sticky; top: 0; z-index: 50; }
+  .doc-bar__inner { display: flex; justify-content: space-between; align-items: center; }
+  .doc-bar .logo { color: #fff; font-size: 17px; }
+  .doc-bar__actions a { color: rgba(255,255,255,.85); font-weight: 700; font-size: 14px; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); }
+  .doc { max-width: 820px; margin: 0 auto; padding: 70px 24px 110px; }
+  .doc h1 { font-size: 34px; margin-bottom: 14px; }
+  .doc > p.lead { font-size: 16px; color: var(--ink-soft); max-width: 600px; margin-bottom: 50px; }
+  .block { margin-bottom: 52px; }
+  .block h2 { font-size: 21px; margin-bottom: 6px; }
+  .block .hint { font-size: 13.5px; color: var(--ink-mute); margin-bottom: 18px; }
+  .say { border-radius: var(--radius-sm); padding: 16px 20px; margin-bottom: 12px; font-size: 15px; line-height: 1.6; max-width: 92%; }
+  .say b { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; opacity: .65; }
+  .say--client { background: var(--bg-alt); border: 1px solid var(--border); }
+  .say--you { background: var(--accent-soft); border: 1px solid #f2c9a8; margin-left: auto; }
+</style>
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">HR</span>HR-Di</a>
+    <div class="doc-bar__actions"><a href="materials.html">Все материалы</a></div>
+  </div>
+</div>
+<div class="doc">
+  <span class="section-tag">Аутрич</span>
+  <h1>Как написать первым тому, кто ещё не искал HR на аутсорсе</h1>
+  <p class="lead">Три сценария первого сообщения — для стройки/производства, для товарного бизнеса и для онлайн-школ — плюс ответы на первую реакцию.</p>
+
+  <div class="block">
+    <h2>Первое сообщение — стройка / производство</h2>
+    <div class="hint">Отправляется в личные сообщения предпринимателю или руководителю после того, как найден его контакт (соцсети, сайт, объявления о найме).</div>
+    <div class="say say--you"><b>Вы</b>Здравствуйте! Видел(-а), что у вас открыта вакансия на монтажников/разнорабочих. Закрываю такие вакансии под ключ — вывожу кандидатов, а оплата только после того, как сотрудник отработает две недели и останется. Интересно обсудить?</div>
+  </div>
+
+  <div class="block">
+    <h2>Первое сообщение — товарный бизнес / услуги</h2>
+    <div class="say say--you"><b>Вы</b>Добрый день! Работаю с небольшими командами как внешний HR-отдел — закрываю вакансии от линейного персонала до руководителей, без штатного HR в найме. Если сейчас есть открытые позиции — расскажу, как это устроено.</div>
+  </div>
+
+  <div class="block">
+    <h2>Первое сообщение — онлайн-школа</h2>
+    <div class="say say--you"><b>Вы</b>Здравствуйте! Подбираю сотрудников для онлайн-проектов — менеджеров, кураторов, операторов — без раздутого штата HR внутри. Если сейчас закрываете вакансии сами — покажу, сколько времени это может сэкономить.</div>
+  </div>
+
+  <div class="block">
+    <h2>«А вы кто?»</h2>
+    <div class="say say--client"><b>Собеседник</b>А вы кто вообще, откуда контакт?</div>
+    <div class="say say--you"><b>Вы</b>Диана, работаю с наймом уже 15 лет — строила отделы продаж и команды под ключ. Сейчас веду направление подбора персонала: беру на себя весь наём, от поиска до выхода сотрудника, вы просто выбираете финалистов.</div>
+  </div>
+
+  <div class="block">
+    <h2>«У нас нет вакансий сейчас»</h2>
+    <div class="say say--client"><b>Собеседник</b>Спасибо, но вакансий сейчас нет.</div>
+    <div class="say say--you"><b>Вы</b>Понимаю, тогда просто оставлю контакт — когда понадобится закрыть позицию быстро, буду рад(-а) помочь. Можно уточнить: обычно кто у вас чаще нужен, если брать за последний год?</div>
+  </div>
+
+  <div class="block">
+    <h2>«Расскажите подробнее»</h2>
+    <div class="say say--client"><b>Собеседник</b>Расскажите подробнее, как это устроено.</div>
+    <div class="say say--you"><b>Вы</b>Коротко: вы описываете вакансию, я запускаю поиск — публикации, обзвон, отбор. Присылаю 2-3 готовых кандидата на выбор. Оплата фиксированная, только после того, как сотрудник отработал две недели. Могу скинуть короткую презентацию с условиями — удобно посмотреть?</div>
+  </div>
+
+  <div class="block">
+    <h2>Доведение до созвона</h2>
+    <div class="say say--you"><b>Вы</b>Если удобно — можем созвониться на 10 минут, обсудим вакансию и сроки закрытия. Когда вам удобнее: сегодня или завтра?</div>
+  </div>
+</div>
+</body>
+</html>
