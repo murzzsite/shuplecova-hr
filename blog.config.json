@@ -1,0 +1,48 @@
+{
+  "siteName": "HR-Di",
+  "siteUrl": "https://murzzsite.github.io/shuplecova-hr",
+  "lang": "ru",
+  "repo": "murzzsite/shuplecova-hr",
+  "ref": "RLUL3YKDCP",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи о найме и подборе персонала от HR-Di: как искать менеджеров, РОПов, IT-специалистов и бухгалтеров.",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Диана Шуплецова",
+    "jobTitle": "Внешний HR-отдел, подбор персонала",
+    "type": "Person"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Опишите вакансию в заявке: обсудим требования, формат работы и стоимость.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#form",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/podbor-menedzherov-po-prodazham.html",
+    "/podbor-rop.html",
+    "/podbor-it-specialistov.html",
+    "/podbor-buhgaltera.html",
+    "/podbor-marketologov-smm-pr.html",
+    "/podbor-pomoshchnika-rukovoditelya.html",
+    "/vneshniy-hr-otdel.html",
+    "/presentation.html",
+    "/privacy.html",
+    "/consent.html"
+  ],
+  "indexNowKey": "e7dc5ab12aa317044d8c1bfb67ca62ae",
+  "previewSecret": "c30ca03d983fae07",
+  "theme": {
+    "accent": "var(--accent)",
+    "accent-soft": "var(--accent-soft)",
+    "bg": "var(--bg)",
+    "surface": "var(--card)",
+    "ink": "var(--ink)",
+    "soft": "var(--ink-soft)",
+    "line": "var(--border)"
+  }
+}

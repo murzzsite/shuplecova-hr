@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /shuplecova-hr/blog/preview/
+
+Sitemap: https://murzzsite.github.io/shuplecova-hr/sitemap.xml

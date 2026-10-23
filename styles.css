@@ -348,3 +348,50 @@ section { padding: 96px 0; }
 @media (max-width: 380px) {
   .logo__suffix { display: none; }
 }
+
+/* ===== INNER PAGES / SEO ===== */
+.page { padding: 40px 0 96px; }
+.crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13.5px; color: var(--ink-mute); margin-bottom: 28px; }
+.crumbs a { color: var(--ink-soft); font-weight: 600; }
+.crumbs a:hover { color: var(--accent-dark); }
+.prose { max-width: 800px; }
+.prose h1 { font-size: 40px; letter-spacing: -0.015em; margin-bottom: 20px; }
+.prose h2 { font-size: 26px; margin: 44px 0 14px; letter-spacing: -0.01em; }
+.prose p, .prose li { font-size: 16.5px; line-height: 1.7; color: var(--ink-soft); }
+.prose p { margin-bottom: 14px; }
+.prose b { color: var(--ink); }
+.prose ul { list-style: disc; padding-left: 22px; margin-bottom: 14px; }
+.prose ol { padding-left: 22px; margin-bottom: 14px; }
+.prose li { margin-bottom: 8px; }
+.prose a { color: var(--accent-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.prose a.btn { text-decoration: none; }
+.prose a.btn--primary { color: #fff; }
+.prose__lead { font-size: 19px !important; color: var(--ink) !important; line-height: 1.65; }
+.prose__cta { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 8px; }
+.prose__box { margin-top: 48px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; }
+.prose__box h2 { margin-top: 0; }
+.prose__faq { max-width: none; margin: 0; }
+.prose__faq .faq__item p { padding: 0 24px 20px; margin: 0; }
+.prose__links { list-style: none !important; padding-left: 0 !important; display: flex; flex-wrap: wrap; gap: 10px; }
+.prose__links li { margin: 0; }
+.prose__links a { display: inline-block; padding: 10px 18px; border: 1.5px solid var(--border); border-radius: 999px; background: #fff; text-decoration: none; color: var(--ink); }
+.prose__links a:hover { border-color: var(--accent); color: var(--accent-dark); }
+.cmp { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--radius-sm); overflow: hidden; font-size: 14.5px; }
+.cmp th, .cmp td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; color: var(--ink-soft); }
+.cmp thead th { background: var(--navy); color: #fff; font-family: var(--ff-head); font-size: 13px; }
+.cmp td:first-child { font-weight: 700; color: var(--ink); }
+.legal__date { font-size: 14px !important; color: var(--ink-mute) !important; }
+mark.ph { background: #fff1c2; color: #7a5200; padding: 1px 6px; border-radius: 4px; font-size: .92em; }
+
+/* consent + cookie */
+.form__consent { display: flex !important; flex-direction: row !important; align-items: flex-start; gap: 10px !important; font-weight: 400 !important; font-size: 13px !important; line-height: 1.45; color: var(--ink-soft); }
+.form__consent input { margin-top: 2px; width: 18px; height: 18px; flex: none; accent-color: var(--accent); padding: 0; }
+.form__consent a { color: var(--accent-dark); font-weight: 600; text-decoration: underline; }
+.cookie { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 120; max-width: 720px; margin: 0 auto; background: #fff; border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 24px 48px -20px rgba(26,33,56,.35); padding: 16px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.cookie p { flex: 1 1 240px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; }
+.cookie a { color: var(--accent-dark); font-weight: 600; text-decoration: underline; }
+.cookie__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.cookie .btn { padding: 9px 16px; font-size: 14px; }
+.srv h3 a { color: inherit; }
+.srv h3 a:hover { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 640px) { .prose h1 { font-size: 30px; } .prose h2 { font-size: 22px; } .prose p, .prose li { font-size: 16px; } .cmp { font-size: 13px; } .cmp th, .cmp td { padding: 10px; } .prose__box { padding: 22px; } .fab { bottom: 88px; } }
