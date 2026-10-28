@@ -1,7 +1,7 @@
 (() => {
   // ===== CONFIG =====
   const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RLUL3YKDCP';
-  const YM_ID = 0; // номер счётчика Яндекс Метрики: вписать после создания счётчика
+  const YM_ID = 113805938;
 
   const loadMetrica = () => {
     if (!YM_ID || window.ym) return;
@@ -107,6 +107,7 @@
         body: JSON.stringify(payload),
       });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      if (window.ym) window.ym(YM_ID, 'reachGoal', 'lead_submit');
       btn.textContent = 'Заявка отправлена ✓';
       form.reset();
     } catch (err) {
